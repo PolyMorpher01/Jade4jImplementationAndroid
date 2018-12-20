@@ -3,19 +3,19 @@ html
   body
     div(style='background-image: url(#{documentAob.backgroundImage}); background-position: center center; background-size: contain;background-repeat: no-repeat; font-size:0.4em; height: 100vh; width: 100%; position: relative; overflow:hidden;')
       div(style='position: absolute; top:41.5%; left:6%; width: 20%')
-        if documentAob.isWebSiteChecked
+        if documentAob.webSiteChecked
            img(src='#{check}', alt='check image',style ='height: auto; width:10%;')
         else
            img(src='#{cross}', alt='cross image',style ='height: auto; width:10%;')
 
       div(style='position: absolute; top:41.5%; left:29.5%; width: 20%') 
-        if documentAob.isEmailChecked
+        if documentAob.emailChecked
            img(src='#{check}', alt='check image',style ='height: auto; width:10%;')
         else
            img(src='#{cross}', alt='cross image',style ='height: auto; width:10%;')    
  
       div(style='position: absolute; top:41.5%; left:53%; width: 20%') 
-        if documentAob.isHardCopyChecked
+        if documentAob.hardCopyChecked
            img(src='#{check}', alt='check image',style ='height: auto; width:10%;')
         else
            img(src='#{cross}', alt='cross image',style ='height: auto; width:10%;')  

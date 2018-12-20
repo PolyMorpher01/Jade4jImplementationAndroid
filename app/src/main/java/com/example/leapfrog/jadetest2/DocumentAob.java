@@ -2,35 +2,35 @@ package com.example.leapfrog.jadetest2;
 
 public class DocumentAob {
 
-  private boolean isWebSiteChecked;
-  private boolean isEmailChecked;
-  private boolean isHardCopyChecked;
+  private boolean webSiteChecked;
+  private boolean emailChecked;
+  private boolean hardCopyChecked;
   private String customerSignature;
   private String relationship;
   private String date;
   private String backgroundImage;
 
-  public DocumentAob(boolean isWebSiteChecked, boolean isEmailChecked, boolean isHardCopyChecked,
+  public DocumentAob(boolean webSiteChecked, boolean emailChecked, boolean hardCopyChecked,
       String customerSignature, String backgroundImage, String relationship, String date) {
-    this.isWebSiteChecked = isWebSiteChecked;
-    this.isEmailChecked = isEmailChecked;
-    this.isHardCopyChecked = isHardCopyChecked;
+    this.webSiteChecked = webSiteChecked;
+    this.emailChecked = emailChecked;
+    this.hardCopyChecked = hardCopyChecked;
     this.customerSignature = customerSignature;
     this.backgroundImage = backgroundImage;
     this.relationship = relationship;
     this.date = date;
   }
 
-  public boolean isWebSiteChecked() {
-    return isWebSiteChecked;
+  public boolean getWebSiteChecked() {
+    return webSiteChecked;
   }
 
-  public boolean isEmailChecked() {
-    return isEmailChecked;
+  public boolean getEmailChecked() {
+    return emailChecked;
   }
 
-  public boolean isHardCopyChecked() {
-    return isHardCopyChecked;
+  public boolean getHardCopyChecked() {
+    return hardCopyChecked;
   }
 
   public String getCustomerSignature() {
