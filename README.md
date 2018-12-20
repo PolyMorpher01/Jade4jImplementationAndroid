@@ -1,4 +1,4 @@
-# Jade4jImplementationAndroid
+# Jade4j Implementation Android
 
 A simple implementation of jade4j library.
 
